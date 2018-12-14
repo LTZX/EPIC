@@ -1,0 +1,87 @@
+body{
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fffefc;
+}
+
+input{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+  cursor: default;
+}
+.md-form{
+  margin-top:5% !important;
+  height:10px !important;
+}
+
+input:focus{
+  border-color: none;
+}
+
+input:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+#results{
+  height: 80%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(128, 128, 128, 0.1);
+  overflow-y:auto;
+}
+
+#tableResults_wrapper{
+  margin-top: 5%;
+  width: 70%;
+}
+thead{
+  background-color: #294760;
+  color:#e1e9ef;
+}
+#tableResults{
+  width:100%!important;
+}
+
+.flex-container{
+  display:flex;
+  align-items: flex-start;
+  flex-direction:column;
+}
+
+.container-fluid{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataTables_wrapper .dt-buttons{
+  float:right;
+}
+
+.dataTables_filter{
+  float: left !important;
+}
+
+table.dataTable {
+  border: 1;
+}
+table.dataTable thead th{
+  border-left: 0;
+  border-right: 0;
+}
+
+table.dataTable tbody td{
+  border-left: 0;
+  border-right: 0;
+}
+
+table.dataTable tbody tr.selected{
+  background-color: #294760;
+  opacity: 0.33;
+}

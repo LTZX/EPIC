@@ -1,0 +1,25 @@
+.active{
+  background-color: lightgrey;
+}
+.right-brand{
+  position: absolute;
+  height: 40px;
+  right: 2%;
+  display: block;
+}
+.nav-item{
+  display: inline-block;
+}
+a{
+  color:black;
+  width:100px!important;
+  padding-top: 8px!important;
+  padding-bottom: 8px!important;
+  padding-left: 16px!important;
+  padding-right: 16px!important;
+}
+header{
+  height: 40px;
+  line-height: 24px!important;
+  font-size: 14px;
+}
